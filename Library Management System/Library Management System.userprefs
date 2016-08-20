@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatabaseFactory/RawData.cs">
+    <Files>
+      <File FileName="Logic/Book.cs" Line="122" Column="69" />
+      <File FileName="DatabaseFactory/RawData.cs" Line="8" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Library Management System" expanded="True" selected="True">
+            <Node name="DatabaseFactory" expanded="True" />
+            <Node name="Languages" expanded="True" />
+            <Node name="Logic" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

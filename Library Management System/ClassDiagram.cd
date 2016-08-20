@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Library_Management_System.Logic.Book">
+    <Position X="9.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEUAABBAcEABEAEiAQEAAAIAAEAAAAAhAAEAAAgKII=</HashCode>
+      <FileName>Logic\Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+      <Property Name="Author" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Author">
+    <Position X="18.25" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEQAEgAAAAAAIAEAAEAAAAAAAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Logic\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Borrower">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAEAAAAAIAIAEAAEACAwAAQAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Logic\Borrower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Category">
+    <Position X="16" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAABgAAAEAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseFactory.XMLHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAIAAAAAAAAAAEAAAAhEACAgAQAADAAAA=</HashCode>
+      <FileName>DatabaseFactory\XMLHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library_Management_System.Logic.LMSBase">
+    <Position X="12.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAkABAACAgAAEAAIgCAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\LMSBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseFactory.XMLData" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAIAMBAA=</HashCode>
+      <FileName>DatabaseFactory\XMLData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DatabaseFactory.RawData" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAEBBA=</HashCode>
+      <FileName>DatabaseFactory\RawData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library_Management_System.Logic.CheckOut">
+    <Position X="6.75" Y="14.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BEESAAiEAAEAACAAQAACAAAAgQAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Logic\CheckOut.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Borrower" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Books" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Library_Management_System.Librarian">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAEAAAAAAAAAAAQEAAAIAAAAAAAACAAIAAAAAAAg=</HashCode>
+      <FileName>Logic\Librarian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseFactory.Base">
+    <Position X="12.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAIAABAAAAAAAAAQAAAAgAAMAABACAAAAEAAAAAA=</HashCode>
+      <FileName>DatabaseFactory\Base.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DatabaseHelper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DatabaseFactory.DbMetadata">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAABAAAAAAAAAAAAAAAAAAAAAAAABCAAAQAABAEA=</HashCode>
+      <FileName>DatabaseFactory\DbMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Publisher">
+    <Position X="13.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAAAEAAQAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.LibraryMangementSystem" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEASAAiBAAAAZAAAAAAAAAASohJAEAAQCAggAAAAAAA=</HashCode>
+      <FileName>Logic\LibraryMangementSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DatabaseFactory.IData">
+    <Position X="6.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DatabaseFactory\IData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="DatabaseFactory.IDatabaseHelper">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIAAAAAAAAAAEAAAAhEAAAgAQAACAAAA=</HashCode>
+      <FileName>DatabaseFactory\IDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DatabaseFactory.IData&lt;T&gt;">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DatabaseFactory\IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DatabaseFactory.IBase">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAgAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseFactory\IBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Library_Management_System.CheckOutStatus" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAABAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\CheckOutStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DatabaseFactory.Base" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEQAIAABAAAAAAAAAQAAAAgAAMAABACAAAAEAAAAAA=</HashCode>
+      <FileName>DatabaseFactory\Base.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DatabaseFactory.DbMetadata">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAABAAAAAAAAAAAAAAAAAAAAAAAABCAAAQAABAEA=</HashCode>
+      <FileName>DatabaseFactory\DbMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseFactory.RawData" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAEBBA=</HashCode>
+      <FileName>DatabaseFactory\RawData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DatabaseFactory.XMLHelper" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAIAAAAAAAAAAEAAAAhEACAgAQAADAAAA=</HashCode>
+      <FileName>DatabaseFactory\XMLHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DatabaseFactory.XMLData" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAIAMBAA=</HashCode>
+      <FileName>DatabaseFactory\XMLData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="DatabaseFactory.IBase">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAgAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DatabaseFactory\IBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DatabaseFactory.IData">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DatabaseFactory\IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DatabaseFactory.IData&lt;T&gt;">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DatabaseFactory\IData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DatabaseFactory.IDatabaseHelper">
+    <Position X="14.75" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAIAAAAAAAAAAEAAAAhEAAAgAQAACAAAA=</HashCode>
+      <FileName>DatabaseFactory\IDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

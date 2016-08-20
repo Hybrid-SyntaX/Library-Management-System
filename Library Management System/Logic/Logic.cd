@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Library_Management_System.Logic.Publisher">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAAAEAAQAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.LMSBase">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAkABAACAgAAEAAIgCAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\LMSBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Author">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAEgAAAAAAIAEAAEAAAAAAAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Logic\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.LibraryMangementSystem">
+    <Position X="16.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QFASAgyBAgIgZAIAAAAAIEESohJAEQgRCAgACAAggQA=</HashCode>
+      <FileName>Logic\LibraryMangementSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.CheckOut">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEESAAiEAAEAACAAQAACAAAAgQAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Logic\CheckOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Category">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAABgAAAEAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Borrower">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAEAAAAAIAIAEAAEACAwAAQAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Logic\Borrower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Logic.Book">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABEUAABBAcEABEAEiAQEAAAIAAEAAAAAhAAEAAAgKII=</HashCode>
+      <FileName>Logic\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library_Management_System.Librarian">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAEAAAAAAAAAAAQEAAAIAAAAAAAACAAIAAAAAAAg=</HashCode>
+      <FileName>Logic\Librarian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Library_Management_System.Logic.SearchOperand">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\LibraryMangementSystem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Library_Management_System.CheckOutStatus">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAABAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\CheckOutStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
